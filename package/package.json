@@ -1,0 +1,44 @@
+{
+  "name": "@nimpl/context",
+  "version": "0.1.0",
+  "description": "Implementation of server contexts in React Server Components without switching to SSR",
+  "files": [
+    "**/*.js",
+    "**/*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "next",
+    "next.js",
+    "server components",
+    "react.js",
+    "implementation",
+    "rsc",
+    "server context"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vordgi/nimpl-context.git"
+  },
+  "author": {
+    "name": "Savelyev Alexander",
+    "email": "vordgi1@gmail.com",
+    "url": "https://github.com/vordgi/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.0.0",
+    "@types/react": "18.3.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "next": "14.2.3",
+    "typescript": "5.3.2"
+  },
+  "peerDependencies": {
+    "react": ">= 18.2.0",
+    "react-dom": ">= 18.2.0",
+    "next": ">= 14.0.0"
+  }
+}
