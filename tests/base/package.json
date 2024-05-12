@@ -10,8 +10,8 @@
   "dependencies": {
     "@nimpl/context": "link:../../package",
     "next": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@playwright/test": "1.40.1",
