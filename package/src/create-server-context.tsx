@@ -15,7 +15,8 @@ function createServerContext<T>(defaultValue?: T): ServerContext<T> {
     const storage: ServerContext<T>["_storage"] = new AsyncLocalStorage<{ value: T }>();
 
     return {
-        Provider: ({ children, value }) => {
+        // The provider must always be asynchronous
+        Provider: async ({ children, value }) => {
             return (
                 <>
                     <Enter storage={storage} value={value} />
