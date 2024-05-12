@@ -1,3 +1,3 @@
-import createServerContext from '@nimpl/getters/create-server-context';
+import createServerContext from "@nimpl/context/create-server-context";
 
-export const UninitializedContext = createServerContext({ uninitialized: 'default value' });
+export const UninitializedContext = createServerContext({ uninitialized: "default value" });

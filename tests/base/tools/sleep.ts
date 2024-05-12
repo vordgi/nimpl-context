@@ -1,5 +1,5 @@
 export const sleep = (time: number) => {
-    return new Promise(resolve => {
-        setTimeout(resolve, time)
-    })
-}
+    return new Promise((resolve) => {
+        setTimeout(resolve, time);
+    });
+};
