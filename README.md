@@ -2,18 +2,20 @@
 
 Implementation of server contexts in React Server Components without switching to SSR
 
-Before using the library, read the [Possible Issues](https://nimpl.tech/context/possible-issues)
+Before using the library, read the [Possible Issues](https://nimpl.dev/docs/context#possible-issues)
 
-Visit https://nimpl.tech/context to view the full documentation.
+Visit https://nimpl.dev/docs/context to view the full documentation.
 
 ## Installation
 
 **Using npm:**
+
 ```bash
 npm i @nimpl/context
 ```
 
 **Using yarn:**
+
 ```bash
 yarn add @nimpl/context
 ```
@@ -22,7 +24,7 @@ yarn add @nimpl/context
 
 All context are covered with tests. Tests are run on every release and every 6 hours on the latest **Canary** version of `Next.js`.
 
-In this way, you can be sure not only of the stability of the code, but also that if there is a breaking change in `Next.js`, this will immediately become known. *Even before the release of a stable version of `Next.js`.*
+In this way, you can be sure not only of the stability of the code, but also that if there is a breaking change in `Next.js`, this will immediately become known. _Even before the release of a stable version of `Next.js`._
 
 ## Examples
 
