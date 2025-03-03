@@ -1,6 +1,6 @@
 {
   "name": "@nimpl/context",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Implementation of server contexts in React Server Components without switching to SSR",
   "files": [
     "**/*.js",
