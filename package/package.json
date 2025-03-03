@@ -16,7 +16,9 @@
     "react.js",
     "implementation",
     "rsc",
-    "server context"
+    "server context",
+    "context",
+    "getter"
   ],
   "repository": {
     "type": "git",
